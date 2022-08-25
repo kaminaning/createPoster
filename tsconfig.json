@@ -1,0 +1,30 @@
+{
+  "compilerOptions": {
+    "strict": true,
+    "declaration":true,
+    "outDir": "dist",
+    // "noImplicitAny":true,
+    "alwaysStrict": true,
+    // "strictNullChecks": true,
+    // "strictFunctionTypes": true,
+    "target": "es2015",
+    "module": "esnext",
+    "baseUrl": "./",
+    "paths": {
+      "tslib": ["node_modules/tslib/tslib.d.ts"]
+    },
+    // "outFile":"main.js",
+    "allowSyntheticDefaultImports": true,
+    "strictPropertyInitialization": false,
+    "importHelpers": true,
+    // "moduleResolution": "node",
+    "sourceMap": true,
+    "lib": ["esnext", "dom"]
+    // "traceResolution":true
+  },
+  //   "files": ["a.ts", "b.ts"],
+  "include": ["*.ts", ".*.d.ts", "src/*.ts", "*/*.d.ts", "*/*.ts"],
+  "exclude": ["node_modules"]
+}
+
+
