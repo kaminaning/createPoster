@@ -5,7 +5,7 @@
 ```
 npm i createPoster -S
 ```
-##引入
+## 引入
 
 ```
 import createPoster from "createPoster";
